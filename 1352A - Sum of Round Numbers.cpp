@@ -2,7 +2,6 @@
 using namespace std;
 int main()
 {
-
 int t,sum,x,y;
 cin >> t;
 int * a = new int[t];
@@ -11,7 +10,7 @@ for (int i = 0 ; i < t ; i++)
     cin >> a[i];
     cout << endl;
 }
-
+    
 for (int i = 0 ; i < t ; i++)
 {
   sum = 0;
@@ -38,6 +37,3 @@ for (int i = 0 ; i < t ; i++)
 
 return 0;
 }
-git remote add origin https://github.com/Beshrkd/Solution---Sum-of-round-numbers-CodeForces-.git
- git Branch -M main
-git push -u origin main
